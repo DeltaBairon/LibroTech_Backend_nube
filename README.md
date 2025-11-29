@@ -1,3 +1,13 @@
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-green?logo=nodedotjs)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-yellow?logo=javascript)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14%2B-blue?logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-20.10%2B-blue?logo=docker)
+![AWS](https://img.shields.io/badge/AWS-Cloud%20Platform-orange?logo=amazonaws)
+![Azure](https://img.shields.io/badge/Azure-Cloud%20Platform-blue?logo=microsoftazure)
+![GitHub Projects](https://img.shields.io/badge/GitHub%20Projects-Management-181717?logo=github)
+![VSCode](https://img.shields.io/badge/VS%20Code-Editor-blue?logo=visualstudiocode)
+![Status](https://img.shields.io/badge/Status-In%20Development-yellow?logo=checkmarx)
+
 # 📚 LibroTech Database
 
 Base de datos PostgreSQL para sistema de gestión de biblioteca digital.
@@ -181,4 +191,5 @@ psql "host=librotech-db.postgres.database.azure.com port=5432 dbname=librotech u
 -- O ejecutar:
 \i schema.sql
 ```
+
 
