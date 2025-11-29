@@ -61,6 +61,15 @@ El sistema implementa las siguientes relaciones:
 | isbn | VARCHAR(20) | - | Código ISBN |
 | año | INTEGER | - | Año de publicación |
 
+**Tablas Azure:**
+
+<img width="921" height="264" alt="image" src="https://github.com/user-attachments/assets/4ec67383-7960-4027-b928-28d73b45c2dc" />
+
+<img width="921" height="337" alt="image" src="https://github.com/user-attachments/assets/66698825-a8d4-4d83-a01c-c2c260eaadb4" />
+
+<img width="921" height="422" alt="image" src="https://github.com/user-attachments/assets/9fdc630b-fb5b-4940-bb81-7c7e40769da7" />
+
+
 **Relaciones:**
 - `autor_id` → `autores.id` (ON DELETE SET NULL)
 - `categoria_id` → `categorias.id` (ON DELETE SET NULL)
@@ -172,3 +181,4 @@ psql "host=librotech-db.postgres.database.azure.com port=5432 dbname=librotech u
 -- O ejecutar:
 \i schema.sql
 ```
+
